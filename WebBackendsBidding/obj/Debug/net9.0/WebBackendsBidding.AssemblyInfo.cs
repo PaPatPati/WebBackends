@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebBackendsBidding")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b6d8bec909559a1237b06d55b3e83c62d7dfd38")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebBackendsBidding")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebBackendsBidding")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

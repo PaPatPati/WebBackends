@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using WebBackendsBidding.Models;
 
 namespace WebBackendsBidding.Data
 {
@@ -9,5 +10,9 @@ namespace WebBackendsBidding.Data
             : base(options)
         {
         }
+        //Properties
+        public DbSet<ListedArticle> ListedArticles { get; set; }
+        public DbSet<Bid> Bids { get; set; }
+        
     }
 }
