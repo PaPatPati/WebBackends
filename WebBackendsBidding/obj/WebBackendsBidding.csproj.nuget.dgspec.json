@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\patig\\source\\repos\\WebBackendsBidding\\WebBackendsBidding\\WebBackendsBidding.csproj": {}
+    "/Users/patrycjagrzebski/Code/WebBackends/WebBackendsBidding/WebBackendsBidding.csproj": {}
   },
   "projects": {
-    "C:\\Users\\patig\\source\\repos\\WebBackendsBidding\\WebBackendsBidding\\WebBackendsBidding.csproj": {
+    "/Users/patrycjagrzebski/Code/WebBackends/WebBackendsBidding/WebBackendsBidding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\patig\\source\\repos\\WebBackendsBidding\\WebBackendsBidding\\WebBackendsBidding.csproj",
+        "projectUniqueName": "/Users/patrycjagrzebski/Code/WebBackends/WebBackendsBidding/WebBackendsBidding.csproj",
         "projectName": "WebBackendsBidding",
-        "projectPath": "C:\\Users\\patig\\source\\repos\\WebBackendsBidding\\WebBackendsBidding\\WebBackendsBidding.csproj",
-        "packagesPath": "C:\\Users\\patig\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\patig\\source\\repos\\WebBackendsBidding\\WebBackendsBidding\\obj\\",
+        "projectPath": "/Users/patrycjagrzebski/Code/WebBackends/WebBackendsBidding/WebBackendsBidding.csproj",
+        "packagesPath": "/Users/patrycjagrzebski/.nuget/packages/",
+        "outputPath": "/Users/patrycjagrzebski/Code/WebBackends/WebBackendsBidding/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\patig\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/patrycjagrzebski/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -91,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
