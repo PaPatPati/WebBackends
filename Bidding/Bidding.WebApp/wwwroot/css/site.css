@@ -1,0 +1,83 @@
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; 
+  justify-content: flex-start; 
+  min-height: 100vh;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header .navbar {
+  margin-bottom: 0 !important;
+  padding-top: 0;
+}
+
+header .container {
+  padding-top: 0;
+}
+
+main {
+  flex: 1;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+  padding-top: 0;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.nav-item .logout-btn {
+    color: magenta;
+}
+
+/* If you want to change the color when hovering */
+.nav-item .logout-btn:hover {
+    color: darkmagenta;
+}

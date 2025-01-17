@@ -1,0 +1,9 @@
+FROM postgres:latest
+
+ENV POSTGRES_DB=biddingdb
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_PASSWORD=1210420
+
+EXPOSE 5432
+
+CMD ["postgres"]

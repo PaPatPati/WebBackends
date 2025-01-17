@@ -1,0 +1,27 @@
+@page
+@model Bidding.WebApp.Pages.CreateListingModel
+@{
+    ViewData["Title"] = "Create listing";
+}
+
+<div class="input-container">
+    <div class="input-box">
+        <h2>Artikel zum Bieten erstellen</h2>
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Listing.Title">Artikelname:</label>
+                <input type="text" asp-for="Listing.Title" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label asp-for="Listing.Price">Einstiegspreis:</label>
+                <input type="number" asp-for="Listing.Price" class="form-control" step="0.01" required />
+            </div>
+            <div class="form-group">
+                <label asp-for="Listing.Image">Bild:</label>
+                <input type="file" asp-for="Listing.Image" class="form-control" accept="image/*" required />
+            </div>
+            <button type="submit" class="input-button">Artikel erstellen</button>
+        </form>
+    </div>
+</div>
+

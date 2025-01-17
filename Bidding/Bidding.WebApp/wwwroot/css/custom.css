@@ -1,0 +1,91 @@
+body {
+    background-color: #343a40;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: magenta; 
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+.form-group input:focus {
+    border-color: magenta;
+    outline: none;
+}
+
+.error-message {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.success-message {
+    color: #4CAF50;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.input-container {
+    background-color: #1e1e1e;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.input-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: lightpink;
+}
+
+.input-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: magenta;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-button:hover {
+    background-color: magenta;
+}
+
+

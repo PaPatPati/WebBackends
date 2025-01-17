@@ -1,0 +1,47 @@
+@page
+@model Bidding.WebApp.Pages.RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrieren</title>
+    <link rel="stylesheet" href="~/css/custom.css">
+    <link rel="stylesheet" href="~/css/register.css">
+</head>
+<body>
+    <div class="input-container">
+        <div class="input-box">
+        <h2>Registrieren</h2>
+        @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+        {
+            <div class="alert alert-danger">@Model.ErrorMessage</div>
+        }
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post))
+        {
+            <div class="form-group">
+                <label for="username">Benutzername</label>
+               <input type="text" asp-for="RegisterRequest.Username" required />
+            </div>
+            <div class="form-group">
+                <label for="email">E-Mail</label>
+               <input type="email" asp-for="RegisterRequest.Email" required />
+            </div>
+            <div class="form-group">
+                <label for="password">Passwort</label>
+                <input type="password" asp-for="RegisterRequest.Password" required />
+            </div>
+            <button type="submit" class="input-button">Registrieren</button>
+            @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+            {
+                <p class="error-message">@ViewBag.ErrorMessage</p>
+            }
+            <div class="mt-3">
+                <p>Already have an account? <a asp-page="/Login">Login here</a></p>
+            </div>
+        }
+    </div>
+</body>

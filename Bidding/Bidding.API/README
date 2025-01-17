@@ -1,0 +1,7 @@
+To start the docker container for the API please run:
+
+For the docker image:
+docker build -t postgres-biddingdb .
+
+For the Container:
+docker run -d --name biddingdb-container -p 5432:5432 postgres-biddingdb
